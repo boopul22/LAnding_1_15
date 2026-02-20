@@ -38,15 +38,15 @@ const LeadForm: React.FC = () => {
                 <div className="w-20 h-20 bg-green-50 text-green-500 rounded-full flex items-center justify-center mb-6 ring-8 ring-green-50/50">
                     <iconify-icon icon="solar:check-circle-bold" width="48"></iconify-icon>
                 </div>
-                <h3 className="text-2xl font-serif text-navy-900 font-bold mb-3">Claim Request Received!</h3>
-                <p className="text-slate-500 mb-6">We have received your initial details.</p>
-                <p className="text-sm text-slate-400 bg-slate-50 px-4 py-2 rounded-lg">A Geico claims adjuster will contact you shortly at <span className="text-navy-900 font-medium">{formData.email}</span>.</p>
+                <h3 className="text-2xl font-serif text-navy-900 font-bold mb-3">Request Received!</h3>
+                <p className="text-slate-500 mb-6">A specialist has been assigned to guide you through your claim.</p>
+                <p className="text-sm text-slate-400 bg-slate-50 px-4 py-2 rounded-lg">An accident claim advisor will be in touch shortly at <span className="text-navy-900 font-medium">{formData.email}</span>.</p>
                 <button
                     onClick={() => setCompleted(false)}
                     className="mt-8 text-brand-orange hover:text-brand-darkOrange font-medium text-sm flex items-center gap-1 group"
                 >
                     <iconify-icon icon="solar:refresh-linear" class="group-hover:rotate-180 transition-transform"></iconify-icon>
-                    Start another claim
+                    Submit another request
                 </button>
             </div>
         );
@@ -57,8 +57,8 @@ const LeadForm: React.FC = () => {
             {/* Form Header */}
             <div className="bg-navy-900 p-5 md:p-6 text-center relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-brand-orange/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
-                <h3 className="text-xl md:text-2xl font-serif text-white tracking-tight mb-1 relative z-10">Start Your Claim Request</h3>
-                <p className="text-sm text-slate-300 relative z-10">Fast and secure online reporting.</p>
+                <h3 className="text-xl md:text-2xl font-serif text-white tracking-tight mb-1 relative z-10">Get Free Accident Claim Help</h3>
+                <p className="text-sm text-slate-300 relative z-10">Connect with a dedicated claim specialist — no cost, no obligation.</p>
             </div>
 
             <div className="p-5 md:p-8">
@@ -165,11 +165,11 @@ const LeadForm: React.FC = () => {
                         {loading ? (
                             <>
                                 <iconify-icon icon="svg-spinners:ring-resize" width="24"></iconify-icon>
-                                Submitting Request...
+                                Connecting You Now...
                             </>
                         ) : (
                             <>
-                                Begin Claim Process
+                                Get My Free Claim Advice
                                 <iconify-icon icon="solar:arrow-right-bold" class="group-hover:translate-x-1 transition-transform" width="20"></iconify-icon>
                             </>
                         )}

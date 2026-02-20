@@ -22,32 +22,36 @@ const Hero: React.FC = () => {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-orange opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-orange"></span>
                         </span>
-                        24/7 Claims Support Available
+                        Policyholder Support
                     </div>
 
                     <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-navy-900 leading-[1.1] tracking-tight font-bold">
-                        Expert Auto Claim <br className="hidden lg:block" />
+                        Auto Accident <br className="hidden lg:block" />
                         <span className="text-brand-orange relative whitespace-nowrap">
-                            Guidance
+                            Claim Support
                             <svg className="absolute w-full h-3 -bottom-1 left-0 text-brand-orange/20 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
                                 <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
                             </svg>
-                        </span>
+                        </span>.
                     </h1>
 
                     <p className="text-base md:text-xl text-slate-500 leading-relaxed font-light max-w-lg mx-auto lg:mx-0">
-                        Involved in an accident? Get professional, step-by-step assistance to ensure your claim is handled correctly, rights are protected, and you receive the support you need.
+                        Have you been involved in an accident? We provide expert guidance for drivers across the US to ensure your claim is handled correctly and efficiently.
                     </p>
 
                     {/* Trust Badges Hero */}
-                    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-y-3 gap-x-6 pt-2">
+                    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-y-3 gap-x-4 pt-2">
                         <div className="flex items-center gap-2 px-3 py-1.5 bg-white/60 rounded-lg border border-slate-200/50 backdrop-blur-sm">
                             <iconify-icon icon="solar:shield-star-bold" class="text-brand-orange" width="20"></iconify-icon>
-                            <span className="text-xs md:text-sm font-semibold text-navy-900">Official Guidance</span>
+                            <span className="text-xs md:text-sm font-semibold text-navy-900">Free Claims Advice</span>
                         </div>
                         <div className="flex items-center gap-2 px-3 py-1.5 bg-white/60 rounded-lg border border-slate-200/50 backdrop-blur-sm">
-                            <iconify-icon icon="solar:lock-password-bold" class="text-brand-orange" width="20"></iconify-icon>
-                            <span className="text-xs md:text-sm font-semibold text-navy-900">Independent Support</span>
+                            <iconify-icon icon="solar:user-rounded-bold" class="text-brand-orange" width="20"></iconify-icon>
+                            <span className="text-xs md:text-sm font-semibold text-navy-900">Dedicated Claim Specialist</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-1.5 bg-white/60 rounded-lg border border-slate-200/50 backdrop-blur-sm">
+                            <iconify-icon icon="solar:clock-circle-bold" class="text-brand-orange" width="20"></iconify-icon>
+                            <span className="text-xs md:text-sm font-semibold text-navy-900">Support Available 24/7</span>
                         </div>
                     </div>
                 </div>
@@ -60,7 +64,7 @@ const Hero: React.FC = () => {
                     <div className="mt-4 text-center lg:hidden">
                         <p className="text-xs text-slate-400 flex items-center justify-center gap-1">
                             <iconify-icon icon="solar:users-group-rounded-bold" width="14"></iconify-icon>
-                            Thousands of claims processed securely
+                            Thousands of claims guided successfully across the US
                         </p>
                     </div>
                 </div>
