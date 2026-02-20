@@ -13,6 +13,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import CookiePolicy from './pages/CookiePolicy';
 import TermsConditions from './pages/TermsConditions';
 import Complaints from './pages/Complaints';
+import BottomPopup from './components/BottomPopup';
 import { useScrollReveal } from './hooks/useScrollReveal';
 
 const HomePage: React.FC = () => {
@@ -37,6 +38,7 @@ const HomePage: React.FC = () => {
 const App: React.FC = () => {
   return (
     <BrowserRouter>
+      <BottomPopup />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
