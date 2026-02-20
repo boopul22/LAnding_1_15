@@ -18,7 +18,7 @@ const Testimonials: React.FC = () => {
                         <div className="flex text-brand-orange mb-6 gap-1">
                             {[1, 2, 3, 4, 5].map((s) => <iconify-icon key={s} icon="solar:star-bold" width="18"></iconify-icon>)}
                         </div>
-                        <p className="text-slate-300 italic mb-8 leading-relaxed text-lg">"I had a fender bender and was dreading the claims process. I filed my claim through the Geico app in 5 minutes and had an appointment scheduled for repairs the very next day. Incredibly easy."</p>
+                        <p className="text-slate-300 italic mb-8 leading-relaxed text-lg">"I had a fender bender and was dreading the claims process. The advisors guided me through what to say and do, and I had an appointment scheduled for repairs the very next day. Incredibly easy."</p>
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-gradient-to-br from-brand-orange to-brand-darkOrange rounded-full flex items-center justify-center text-white font-bold font-serif text-lg shadow-lg">JD</div>
                             <div>
@@ -33,7 +33,7 @@ const Testimonials: React.FC = () => {
                         <div className="flex text-brand-orange mb-6 gap-1">
                             {[1, 2, 3, 4, 5].map((s) => <iconify-icon key={s} icon="solar:star-bold" width="18"></iconify-icon>)}
                         </div>
-                        <p className="text-slate-300 italic mb-8 leading-relaxed text-lg">"The Auto Repair Xpress® service was amazing. I dropped my car off, picked up my rental car right there, and Geico kept me updated with text messages the whole time."</p>
+                        <p className="text-slate-300 italic mb-8 leading-relaxed text-lg">"The support service was amazing. They helped me find my preferred repair facility, arranged my rental car, and kept me updated with advice the whole time."</p>
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white font-bold font-serif text-lg shadow-lg">SM</div>
                             <div>
@@ -49,7 +49,7 @@ const Testimonials: React.FC = () => {
                             {[1, 2, 3, 4].map((s) => <iconify-icon key={s} icon="solar:star-bold" width="18"></iconify-icon>)}
                             <iconify-icon icon="solar:star-bold-duotone" width="18"></iconify-icon>
                         </div>
-                        <p className="text-slate-300 italic mb-8 leading-relaxed text-lg">"Someone hit my parked car while I was at work. Geico's claims adjuster was so helpful and sympathetic. The online tracker showed me exactly where my claim was in the approval process."</p>
+                        <p className="text-slate-300 italic mb-8 leading-relaxed text-lg">"Someone hit my parked car while I was at work. The guidance team was so helpful and sympathetic. They showed me exactly how to handle the other party's insurer."</p>
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white font-bold font-serif text-lg shadow-lg">MR</div>
                             <div>

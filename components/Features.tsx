@@ -2,19 +2,19 @@ import React from 'react';
 
 const Features: React.FC = () => {
     const features = [
-        { icon: 'solar:bolt-bold-duotone', title: 'Fast Response', desc: 'No waiting days. Geico representatives are available 24/7 to help you start your claim immediately.' },
-        { icon: 'solar:smartphone-bold-duotone', title: 'Mobile App Tracking', desc: 'Track the status of your claim instantly from your phone using the Geico Mobile app.' },
-        { icon: 'solar:wrench-bold-duotone', title: 'Guaranteed Repairs', desc: 'Repairs are guaranteed for as long as you own your car at Geico\'s Auto Repair Xpress® partnered shops.' },
-        { icon: 'solar:car-bold-duotone', title: 'Rental Coverage', desc: 'If your policy includes Enterprise rental coverage, Geico can set up your reservation directly.' },
-        { icon: 'solar:clipboard-check-bold-duotone', title: 'Easy Process', desc: 'Reporting a claim is simple, convenient, and can often be completed in just a few minutes.' },
-        { icon: 'solar:headset-mic-bold-duotone', title: 'Dedicated Support', desc: 'Questions about the process? Our dedicated claims team is here to help you navigate your options.' },
+        { icon: 'solar:siren-rounded-bold-duotone', title: 'Immediate Action Required', desc: 'Stop safely, turn on hazard lights, and check for injuries. Call 911 if urgent medical help is needed. Never admit liability at the scene.' },
+        { icon: 'solar:camera-bold-duotone', title: 'Evidence Collection', desc: 'Take clear photos of all vehicles, the surrounding area, and note specific locations. Gather witness contact info and record road conditions.' },
+        { icon: 'solar:document-add-bold-duotone', title: 'Filing Your Claim', desc: 'Call our team at 1-800-555-0199 with your policy details ready. Provide a factual account and submit your collected evidence.' },
+        { icon: 'solar:wrench-bold-duotone', title: 'Vehicle Repair', desc: 'Damage will be assessed by an approved appraiser. You have the right to choose your preferred repair shop or use an authorized facility.' },
+        { icon: 'solar:route-bold-duotone', title: 'What Happens Next', desc: 'Insurers will investigate liability. If you are not at fault, we assist in recovering costs. We keep you updated throughout the process.' },
+        { icon: 'solar:shield-warning-bold-duotone', title: 'Expert Advice', desc: 'Keep a log of all accident-related expenses. Crucially, do not sign documents from the other party\'s insurer without seeking advice first.' },
     ];
 
     return (
         <section className="py-16 md:py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16">
-                    <h2 className="font-serif text-3xl text-navy-900 tracking-tight mb-4">Why File With Geico</h2>
+                    <h2 className="font-serif text-3xl text-navy-900 tracking-tight mb-4">Claims Process Guide</h2>
                     <div className="h-1 w-20 bg-brand-orange mx-auto rounded-full"></div>
                 </div>
 

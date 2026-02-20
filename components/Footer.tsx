@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
                     <div className="col-span-1 md:col-span-1">
                         <a href="#" className="flex items-center gap-2 mb-4 text-white">
                             <iconify-icon icon="solar:shield-check-linear" width="24"></iconify-icon>
-                            <span className="font-serif text-xl tracking-tight">Geico<span className="opacity-50 font-sans font-normal"> Claims Guidance</span></span>
+                            <span className="font-serif text-xl tracking-tight">Accident<span className="opacity-50 font-sans font-normal"> Guide</span></span>
                         </a>
-                        <p className="mb-4 text-xs leading-relaxed">Helping American drivers file, track, and resolve their auto claims quickly and easily.</p>
+                        <p className="mb-4 text-xs leading-relaxed">Professional accident management services and expert guidance across the United States.</p>
                         <div className="flex gap-4">
                             <a href="#" className="hover:text-white transition-colors"><iconify-icon icon="cib:facebook" width="16"></iconify-icon></a>
                             <a href="#" className="hover:text-white transition-colors"><iconify-icon icon="cib:twitter" width="16"></iconify-icon></a>
@@ -47,15 +47,15 @@ const Footer: React.FC = () => {
                         <ul className="space-y-2">
                             <li className="flex items-center gap-2">
                                 <iconify-icon icon="solar:phone-linear"></iconify-icon>
-                                1-800-841-3000
+                                1-800-555-0199
                             </li>
                             <li className="flex items-center gap-2">
                                 <iconify-icon icon="solar:letter-linear"></iconify-icon>
-                                claims@geico.com
+                                support@accidentguide.com
                             </li>
                             <li className="flex items-start gap-2">
                                 <iconify-icon icon="solar:map-point-linear" class="mt-1"></iconify-icon>
-                                123 Finance Way, Suite 400<br />New York, NY 10012
+                                123 Insurance Street<br />New York, NY 10012
                             </li>
                         </ul>
                     </div>
@@ -63,10 +63,10 @@ const Footer: React.FC = () => {
 
                 <div className="border-t border-navy-800 pt-8 space-y-4">
                     <p className="text-xs text-slate-500 text-center md:text-left">
-                        <strong>Notice:</strong> This is a demonstrative site for Geico Claims Guidance. Not affiliated with the actual Geico corporation.
+                        <strong>Regulatory Disclosure:</strong> We introduce customers to authorized US accident-management providers who deliver repair and replacement services following non-fault accidents. We do not provide insurance, legal, or claims-management services directly. We are independent of all insurers and accident-management companies. You are under no obligation to use our partners.
                     </p>
                     <div className="flex flex-col md:flex-row justify-between items-center text-xs pt-4">
-                        <span>© 2024 Geico Claims Guidance Mockup. All rights reserved.</span>
+                        <span>© 2026 Accident Guide. All rights reserved.</span>
                     </div>
                 </div>
             </div>

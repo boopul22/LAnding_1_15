@@ -5,8 +5,8 @@ const HowItWorks: React.FC = () => {
         <section className="py-16 md:py-24 bg-slate-50 border-t border-slate-200">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16 md:mb-20 reveal">
-                    <h2 className="font-serif text-3xl md:text-4xl text-navy-900 tracking-tight mb-4">Filing a Geico Claim is Simple</h2>
-                    <p className="text-slate-500 text-lg font-light">Three easy steps to report, track, and resolve your auto claim.</p>
+                    <h2 className="font-serif text-3xl md:text-4xl text-navy-900 tracking-tight mb-4">How to Make a Claim: Step-by-Step</h2>
+                    <p className="text-slate-500 text-lg font-light">Follow these critical initial steps to ensure your claim is processed efficiently.</p>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-12 relative">
@@ -21,8 +21,8 @@ const HowItWorks: React.FC = () => {
                             <div className="absolute -top-2 -right-2 w-8 h-8 bg-brand-orange text-white rounded-full flex items-center justify-center font-bold text-sm shadow-md border-2 border-white">1</div>
                             <iconify-icon icon="solar:clipboard-text-bold-duotone" class="text-navy-900" width="36"></iconify-icon>
                         </div>
-                        <h3 className="font-serif text-xl text-navy-900 font-bold mb-3">Submit Your Details</h3>
-                        <p className="text-slate-500 leading-relaxed">Log in online or use the Geico Mobile app to report your accident securely.</p>
+                        <h3 className="font-serif text-xl text-navy-900 font-bold mb-3">Secure the Scene</h3>
+                        <p className="text-slate-500 leading-relaxed">Ensure everyone is safe. Turn on hazard lights. Call 911 if there are injuries. Do not move vehicles unless they are causing a dangerous obstruction.</p>
                     </div>
 
                     <div className="relative z-10 text-center group reveal delay-200">
@@ -30,8 +30,8 @@ const HowItWorks: React.FC = () => {
                             <div className="absolute -top-2 -right-2 w-8 h-8 bg-brand-orange text-white rounded-full flex items-center justify-center font-bold text-sm shadow-md border-2 border-white">2</div>
                             <iconify-icon icon="solar:sort-by-time-bold-duotone" class="text-navy-900" width="36"></iconify-icon>
                         </div>
-                        <h3 className="font-serif text-xl text-navy-900 font-bold mb-3">We Review Your Claim</h3>
-                        <p className="text-slate-500 leading-relaxed">A dedicated liability examiner or appraiser will guide you through the process.</p>
+                        <h3 className="font-serif text-xl text-navy-900 font-bold mb-3">Exchange Information</h3>
+                        <p className="text-slate-500 leading-relaxed">Get the name, address, phone number, vehicle registration, and insurance details of all other drivers involved.</p>
                     </div>
 
                     <div className="relative z-10 text-center group reveal delay-300">
@@ -39,8 +39,8 @@ const HowItWorks: React.FC = () => {
                             <div className="absolute -top-2 -right-2 w-8 h-8 bg-brand-orange text-white rounded-full flex items-center justify-center font-bold text-sm shadow-md border-2 border-white">3</div>
                             <iconify-icon icon="solar:wallet-money-bold-duotone" class="text-navy-900" width="36"></iconify-icon>
                         </div>
-                        <h3 className="font-serif text-xl text-navy-900 font-bold mb-3">Get Back on the Road</h3>
-                        <p className="text-slate-500 leading-relaxed">Choose an Auto Repair Xpress® facility for guaranteed repairs or your preferred shop.</p>
+                        <h3 className="font-serif text-xl text-navy-900 font-bold mb-3">Gather Evidence</h3>
+                        <p className="text-slate-500 leading-relaxed">Take photos of damage, road position, and weather conditions. Collect contact details for any witnesses.</p>
                     </div>
                 </div>
             </div>

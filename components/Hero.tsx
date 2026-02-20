@@ -26,17 +26,17 @@ const Hero: React.FC = () => {
                     </div>
 
                     <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-navy-900 leading-[1.1] tracking-tight font-bold">
-                        File Your Claim <br className="hidden lg:block" />
+                        Expert Auto Claim <br className="hidden lg:block" />
                         <span className="text-brand-orange relative whitespace-nowrap">
-                            With Geico
+                            Guidance
                             <svg className="absolute w-full h-3 -bottom-1 left-0 text-brand-orange/20 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
                                 <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
                             </svg>
-                        </span>.
+                        </span>
                     </h1>
 
                     <p className="text-base md:text-xl text-slate-500 leading-relaxed font-light max-w-lg mx-auto lg:mx-0">
-                        Step-by-step guidance on how to file, track, and resolve your Geico car insurance claim quickly and easily. Available online or via the Geico Mobile app.
+                        Involved in an accident? Get professional, step-by-step assistance to ensure your claim is handled correctly, rights are protected, and you receive the support you need.
                     </p>
 
                     {/* Trust Badges Hero */}
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
                         </div>
                         <div className="flex items-center gap-2 px-3 py-1.5 bg-white/60 rounded-lg border border-slate-200/50 backdrop-blur-sm">
                             <iconify-icon icon="solar:lock-password-bold" class="text-brand-orange" width="20"></iconify-icon>
-                            <span className="text-xs md:text-sm font-semibold text-navy-900">Secure Process</span>
+                            <span className="text-xs md:text-sm font-semibold text-navy-900">Independent Support</span>
                         </div>
                     </div>
                 </div>
